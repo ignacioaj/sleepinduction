@@ -1,7 +1,7 @@
 %pr02
 %bandpass filter for the extraction of delta, theta, alpha, beta waves
 
-load('data_2.mat');
+load('data_monochannel.mat');
 
 signal_d = filter(deltaFilter,signal);   % signal_d has only delta signals
 signal_t = filter(thetaFilter,signal);   % signal_t has only theta signals
