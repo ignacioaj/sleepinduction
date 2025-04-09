@@ -10,8 +10,8 @@ To analyze how brainwave activity changes during sleep induction by:
 
 ## 📂 Project Structure
 
-- `Monochannel_Analysis.m` – Analysis script for monochannel EEG data.
-- `Multichannel_Analysis.m` – Analysis script for multichannel EEG data.
+- `Monochannel Analysis.m` – Analysis script for monochannel EEG data.
+- `Multichannel Analysis.m` – Analysis script for multichannel EEG data.
 - `data_monochannel.mat` – Monochannel EEG dataset.
 - `data_multichannel.mat` – Multichannel EEG dataset.
 - Other (`.m` and `.fig` files) – Filtering functions and files generated during script execution.
