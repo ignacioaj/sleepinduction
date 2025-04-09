@@ -1,5 +1,5 @@
 topoplot([],'channelLocations.locs')
-EEG = load('data_3.mat');
+EEG = load('data_multichannel.mat');
 signal = EEG.signal;
 Fs = EEG.Fs;
 t = EEG.t;
